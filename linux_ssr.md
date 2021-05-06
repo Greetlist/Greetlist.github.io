@@ -46,6 +46,6 @@ echo "socks5 127.0.0.1 1080" >> /etc/proxychains.conf
 ```
 sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
 echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
-sudo apt-get update
-sudo apt-get install -y kubelet kubeadm kubectl
+sudo proxychains apt-get update
+sudo proxychains apt-get install -y kubelet kubeadm kubectl
 ```
