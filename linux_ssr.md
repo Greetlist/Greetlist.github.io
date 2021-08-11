@@ -1,6 +1,6 @@
-- [遇到的问题] (#遇到的问题)
-- [使用到的工具] (#使用到的工具)
-- [步骤] (#步骤)
+* [遇到的问题] (#遇到的问题)
+* [使用到的工具] (#使用到的工具)
+* [步骤] (#步骤)
 ## 遇到的问题
 安装k8s的时候，会遇到下面两个问题
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210413221736925.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25pYTMwNQ==,size_16,color_FFFFFF,t_70)
